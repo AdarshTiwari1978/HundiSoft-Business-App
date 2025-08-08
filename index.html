@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HundiSoft Business App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to right, #2c3e50, #34495e); /* Dark blue-grey gradient */
+            color: #ecf0f1; /* Light grey text */
+        }
+        .header-bg {
+            background-color: #c0392b; /* Reddish color for the top right box, matching the image */
+            width: 50px; /* Adjust as needed */
+            height: 50px; /* Adjust as needed */
+        }
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        .feature-item svg {
+            margin-right: 0.5rem;
+            min-width: 1rem; /* Ensure arrow doesn't collapse */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+    <div class="bg-gray-800 bg-opacity-90 rounded-xl shadow-2xl p-8 md:p-12 lg:p-16 max-w-4xl w-full relative">
+        <!-- Top Right Red Box (as seen in the image) -->
+        <div class="header-bg absolute top-0 right-0 rounded-tr-xl"></div>
+
+        <h1 class="text-4xl md:text-5xl font-extrabold text-red-500 mb-8 text-center drop-shadow-lg">HundiSoft Business App</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            <div class="space-y-4">
+                <div class="feature-item text-xl">
+                    <svg class="w-4 h-4 text-green-400 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>An easy app for hundi brokers to help them for hundi transactions management.</span>
+                </div>
+                <div class="feature-item text-xl">
+                    <svg class="w-4 h-4 text-green-400 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>Generation of various reports like transaction report, ledger, bill (panna), due list and customer details etc.</span>
+                </div>
+                <div class="feature-item text-xl">
+                    <svg class="w-4 h-4 text-green-400 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>Backup and recovery facility.</span>
+                </div>
+                <div class="feature-item text-xl">
+                    <svg class="w-4 h-4 text-green-400 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>Works on any android device.</span>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <div class="feature-item text-xl">
+                    <svg class="w-4 h-4 text-green-400 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>15 days trial period to test all functions.</span>
+                </div>
+                <div class="feature-item text-xl">
+                    <svg class="w-4 h-4 text-green-400 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>Desktop version is also available.</span>
+                </div>
+                <div class="feature-item text-xl">
+                    <svg class="w-4 h-4 text-green-400 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                    <span>For further query, please contact at:</span>
+                    <ul class="list-none ml-2">
+                        <li><strong>Email:</strong> adarsh.hundisoft@gmail.com</li>
+                        <li><strong>Mob.:</strong> 8770863119</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
